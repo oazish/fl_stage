@@ -1,0 +1,11 @@
+.header { background-color: #000000; background-image: url("/images/tile_blk.gif"); }
+
+.main { background-color: #000000; background-image: url("/images/tile_blk.gif"); }
+
+.main a { color: #FFFFFF; }
+
+.main a:active { color: #8000FF; }
+
+.main a:visited { color: #80FFFF; }
+
+/*# sourceMappingURL=index.css.map */

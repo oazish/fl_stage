@@ -1,0 +1,11 @@
+.header { background-color: #010648; background-image: url("/images/tile_blue.gif"); }
+
+.main { background-color: #010648; background-image: url("/images/tile_blue.gif"); }
+
+.main a { color: #FFD100; }
+
+.main a:active { color: #FFD100; }
+
+.main a:visited { color: #FFD100; }
+
+/*# sourceMappingURL=athlete.css.map */

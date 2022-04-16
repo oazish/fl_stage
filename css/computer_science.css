@@ -1,0 +1,11 @@
+.header { background-color: #000329; background-image: url("/images/tile_drkblue.gif"); }
+
+.main { background-color: #000329; background-image: url("/images/tile_drkblue.gif"); }
+
+.main a { color: #FFC123; }
+
+.main a:active { color: #00FFFF; }
+
+.main a:visited { color: #8D6BF5; }
+
+/*# sourceMappingURL=computer_science.css.map */

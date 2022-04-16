@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "producer.css",
+	"sources": [
+		"producer.scss",
+		"sources/_sass/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"_variables\";\n\n.header {\n  @include setup(\n    $backgroundColor: map-get($colors, \"black\"),\n    $backgroundImage: \"/images/tile_blk.gif\",\n  );\n}\n\n.main {\n  @include setup(\n    $backgroundColor: map-get($colors, \"black\"),\n    $backgroundImage: \"/images/tile_blk.gif\",\n    $linkColor: map-get($colors, \"blue\"),\n    $linkVisitedColor: map-get($colors, \"white\"),\n  );\n}\n",
+		"$colors: (\n  \"anakiwa1\": #80FFFF,\n  \"anakiwa2\": #9CCEFF,\n  \"anakiwa3\": #A6FFFF,\n  \"black\": #000000,\n  \"blazeOrange\": #FF6300,\n  \"blue\": #0000FF,\n  \"brightRed1\": #A9000E,\n  \"brightRed2\": #AD0000,\n  \"castro\": #520029,\n  \"ceruleanBlue\": #315ACE,\n  \"cornflowerBlue\": #8D6BF5,\n  \"cyanAqua\": #00FFFF,\n  \"deepFir\": #002900,\n  \"deepTeal\": #002D38,\n  \"electricViolet1\": #8000FF,\n  \"electricViolet2\": #D304FF,\n  \"flamenco\": #FF7706,\n  \"gold\": #FFD100,\n  \"green\": #00FF00,\n  \"guardsmanRed\": #BD0000,\n  \"ivory\": #FFFFEF,\n  \"lightningYellow\": #FFC123,\n  \"magentaFuchsia\": #FF00FF,\n  \"navyBlue1\": #000863,\n  \"navyBlue2\": #120080,\n  \"rajah\": #F5C478,\n  \"red\": #F20600,\n  \"stratos1\": #000329,\n  \"stratos2\": #010648,\n  \"toreaBay\": #160FAD,\n  \"white\": #FFFFFF,\n  \"socialMediaGold\": rgb(220, 200, 130),\n);\n\n$nav-width: 126px;\n$header-height: 100px;\n$main-padding: 10px;\n\n@mixin setup(\n  $backgroundColor: null,\n  $backgroundImage: null,\n  $linkColor: null,\n  $linkActiveColor: null,\n  $linkVisitedColor: null,\n) {\n  @if $backgroundColor {\n    background-color: $backgroundColor;\n  }\n  @if $backgroundImage {\n    background-image: url($backgroundImage);\n  }\n  @if $linkColor {\n    a {\n      color: $linkColor;\n    }\n  }\n  @if $linkActiveColor {\n    a:active {\n      color: $linkActiveColor;\n    }\n  }\n  @if $linkVisitedColor {\n    a:visited {\n      color: $linkVisitedColor;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,OAAO,CAAC,EC6CJ,gBAAgB,EA3CT,OAAO,EA8Cd,gBAAgB,EAAE,2BAAqB,GD3C1C;;AAED,AAAA,KAAK,CAAC,ECsCF,gBAAgB,EA3CT,OAAO,EA8Cd,gBAAgB,EAAE,2BAAqB,GDlC1C;;AAPD,AC4CI,KD5CC,CC4CD,CAAC,CAAC,EACA,KAAK,EAhDD,OAAO,GAiDZ;;AD9CL,ACsDI,KDtDC,CCsDD,CAAC,CAAC,OAAO,CAAC,EACR,KAAK,EAjCA,OAAO,GAkCb"
+}

@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body { display: flex; margin: 0; background-color: black; }
+
+nav { position: fixed; top: 0; left: 0; bottom: 0; width: 126px; background-color: #000000; background-image: url("/images/tile_blk.gif"); }
+
+nav a { color: #AD0000; }
+
+nav a:active { color: #8000FF; }
+
+nav a:visited { color: #FF6300; }
+
+nav .media-and-resources { padding-top: 0.5rem; }
+
+nav .media-and-resources a { border: 1px solid #dcc882; color: #dcc882; display: flex; font-family: "EB Garamond"; font-size: 17px; font-weight: 500; line-height: 0.75; padding: 4px 0 7px; text-align: center; justify-content: center; text-decoration: none; }
+
+nav .media-and-resources:hover a, nav .media-and-resources.active a { border-color: #bebebe; color: #bebebe; }
+
+@font-face { font-family: "EB Garamond"; src: url("/fonts/EBGaramond-Regular.ttf") format("truetype"); font-weight: 400; }
+
+@font-face { font-family: "EB Garamond"; src: url("/fonts/EBGaramond-Medium.ttf") format("truetype"); font-weight: 500; }
+
+.root { margin-left: 126px; flex-grow: 1; }
+
+.root .header { position: fixed; top: 0; right: 0; left: 126px; height: 100px; padding: 4px; z-index: 1; }
+
+.root .main { min-height: 100%; padding: 10px; padding-top: 110px; }
+
+/*# sourceMappingURL=common.css.map */

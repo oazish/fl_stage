@@ -1,0 +1,11 @@
+.header { background-color: #520029; background-image: url("/images/tile_purple.gif"); }
+
+.main { background-color: #520029; background-image: url("/images/tile_purple.gif"); }
+
+.main a { color: #F20600; }
+
+.main a:active { color: #D304FF; }
+
+.main a:visited { color: #FF7706; }
+
+/*# sourceMappingURL=philanthropist.css.map */
